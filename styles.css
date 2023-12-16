@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    
+    padding-top: 100px;
+    background-color: rgba(0, 0, 0, 0.1);
+    ;
+}
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+header img {
+    height: 36px;
+    margin-right: 16px;
+}
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 40px;
+    border-style: groove;
+    background-color: #e7e7e7;
+}
+form{
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 52px;
+    align-items: center;
+}
+form input {
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 8px;
+    width: 250px;
+    
+}
+form button {
+    background-color: #1b43c5;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+form button:hover {
+    background-color: rgb(60, 118, 226);
+}
+table {
+    width: 100%;
+}
+table th {
+    border-bottom: 2px solid #000;
+    padding: 16;
+    font-size: 24px;
+    font-weight: bold;
+   
+}
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+table td img {
+    height: 30px;
+}
+tfoot {
+    font-weight: bold;
+}
+#mensagem{
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.sucesso {
+    background-color: rgb(33, 243, 33);
+    color: #fff;
+}
+
+.erro {
+    background-color: red;
+    color: #fff;
+}
